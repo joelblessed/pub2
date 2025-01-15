@@ -1,0 +1,26 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1736925264650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1736925269787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"@testing-library/jest-dom\": \"^5.17.0\",\n     \"@testing-library/react\": \"^13.4.0\",\n     \"@testing-library/user-event\": \"^13.5.0\",\n     \"axios\": \"^1.7.9\",\n-    \"base-64\": \"^no1.0.0\",\n+    \"base-64\": \"^1.0.0\",\n     \"body-parser\": \"^1.20.3\",\n     \"cors\": \"^2.8.5\",\n     \"dotenv\": \"^16.4.7\",\n     \"express\": \"^4.21.2\",\n"
+                },
+                {
+                    "date": 1736927273760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"@testing-library/jest-dom\": \"^5.17.0\",\n     \"@testing-library/react\": \"^13.4.0\",\n     \"@testing-library/user-event\": \"^13.5.0\",\n     \"axios\": \"^1.7.9\",\n-    \"base-64\": \"^1.0.0\",\n+    \"base-64\": \"^git1.0.0\",\n     \"body-parser\": \"^1.20.3\",\n     \"cors\": \"^2.8.5\",\n     \"dotenv\": \"^16.4.7\",\n     \"express\": \"^4.21.2\",\n"
+                }
+            ],
+            "date": 1736925264650,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"pub2\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@testing-library/jest-dom\": \"^5.17.0\",\n    \"@testing-library/react\": \"^13.4.0\",\n    \"@testing-library/user-event\": \"^13.5.0\",\n    \"axios\": \"^1.7.9\",\n    \"base-64\": \"^no1.0.0\",\n    \"body-parser\": \"^1.20.3\",\n    \"cors\": \"^2.8.5\",\n    \"dotenv\": \"^16.4.7\",\n    \"express\": \"^4.21.2\",\n    \"multer\": \"^1.4.5-lts.1\",\n    \"react\": \"^19.0.0\",\n    \"react-dom\": \"^19.0.0\",\n    \"react-scripts\": \"^3.0.1\",\n    \"uuid\": \"^11.0.5\",\n    \"web-vitals\": \"^2.1.4\"\n  },\n  \"scripts\": {\n    \"main\": \"server.js\",\n    \"start\": \"react-scripts start\",\n    \"build\": \"react-scripts build\",\n    \"test\": \"react-scripts test\",\n    \"eject\": \"react-scripts eject\"\n  },\n  \"eslintConfig\": {\n    \"extends\": [\n      \"react-app\",\n      \"react-app/jest\"\n    ]\n  },\n  \"browserslist\": {\n    \"production\": [\n      \">0.2%\",\n      \"not dead\",\n      \"not op_mini all\"\n    ],\n    \"development\": [\n      \"last 1 chrome version\",\n      \"last 1 firefox version\",\n      \"last 1 safari version\"\n    ]\n  },\n  \"devDependencies\": {\n    \"json-server\": \"^1.0.0-beta.3\"\n  }\n}\n"
+        }
+    ]
+}

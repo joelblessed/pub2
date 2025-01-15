@@ -1,0 +1,17 @@
+{
+  "cart": [
+    {
+      "id": "02a7",
+      "numberInStock": 6,
+      "name": "itel",
+      "desc": "4 Gb",
+      "forCount": 1,
+      "category": "phone",
+      "status": "Used",
+      "discount": "",
+      "price": 532,
+      "image": "to.jpg",
+      "liked": 0
+    }
+  ]
+}
