@@ -1,0 +1,98 @@
+{
+  "cart": [
+    {
+      "id": "02a7",
+      "numberInStock": 6,
+      "name": "itel",
+      "desc": "4 Gb",
+      "forCount": 1,
+      "category": "phone",
+      "status": "Used",
+      "discount": "",
+      "price": 532,
+      "image": "to.jpg",
+      "liked": 0
+    },
+    {
+      "id": "",
+      "numberInStock": 6,
+      "name": "fan",
+      "desc": "220v",
+      "forCount": 1,
+      "status": "Used",
+      "discount": "",
+      "price": 9999,
+      "image": "4.png",
+      "liked": 0,
+      "category": "accesseries"
+    },
+    {
+      "id": "541a"
+    },
+    {
+      "id": "02a7",
+      "numberInStock": 6,
+      "name": "Jumper",
+      "desc": "12 gb Ram",
+      "forCount": 1,
+      "status": "Used",
+      "discount": "",
+      "price": 532,
+      "image": "to.jpg",
+      "liked": 0,
+      "category": "computer"
+    },
+    {
+      "id": "02a7",
+      "numberInStock": 6,
+      "name": "Jumper",
+      "desc": "12 gb Ram",
+      "forCount": 1,
+      "status": "Used",
+      "discount": "",
+      "price": 532,
+      "image": "to.jpg",
+      "liked": 0,
+      "category": "computer"
+    },
+    {
+      "id": "c627",
+      "numberInStock": 6,
+      "name": "xr",
+      "desc": "64 Gb",
+      "forCount": 1,
+      "status": "Used",
+      "discount": "",
+      "price": 242,
+      "image": "oh.png",
+      "liked": 0,
+      "category": "phone"
+    },
+    {
+      "id": "c627",
+      "numberInStock": 6,
+      "name": "xr",
+      "desc": "64 Gb",
+      "forCount": 1,
+      "status": "Used",
+      "discount": "",
+      "price": 242,
+      "image": "oh.png",
+      "liked": 0,
+      "category": "phone"
+    },
+    {
+      "id": "c627",
+      "numberInStock": 6,
+      "name": "xr",
+      "desc": "64 Gb",
+      "forCount": 1,
+      "status": "Used",
+      "discount": "",
+      "price": 242,
+      "image": "oh.png",
+      "liked": 0,
+      "category": "phone"
+    }
+  ]
+}

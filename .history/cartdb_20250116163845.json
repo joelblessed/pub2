@@ -3,16 +3,16 @@
     {
       "id": "02a7",
       "numberInStock": 6,
-      "name": "Jumper",
-      "desc": "12 gb Ram",
+      "name": "itel",
+      "desc": "4 Gb",
       "forCount": 1,
-      "qty": 0,
+      "category": "phone",
       "status": "Used",
       "discount": "",
       "price": 532,
       "image": "to.jpg",
-      "liked": 0,
-      "category": "computer"
-    }
+      "liked": 0
+    },
+   
   ]
 }

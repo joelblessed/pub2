@@ -1,0 +1,58 @@
+{
+    "sourceFile": "server.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1737034699821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737034707754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const express = require('express');\n const path = require('path');\n const app = express();\n-re\n+require()\n // Serve images from the \"images\" directory\n app.use('/images', express.static(path.join(__dirname, 'images')));\n \n // Example endpoint to list available images\n"
+                },
+                {
+                    "date": 1737034716118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const express = require('express');\n const path = require('path');\n const app = express();\n-require()\n+require(\"./db.json\")\n // Serve images from the \"images\" directory\n app.use('/images', express.static(path.join(__dirname, 'images')));\n \n // Example endpoint to list available images\n"
+                },
+                {
+                    "date": 1737034728839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n const express = require('express');\n const path = require('path');\n const app = express();\n-require(\"./db.json\")\n+require(\"./db.json\");\n+\n // Serve images from the \"images\" directory\n app.use('/images', express.static(path.join(__dirname, 'images')));\n \n // Example endpoint to list available images\n"
+                },
+                {
+                    "date": 1737034734484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const express = require('express');\n const path = require('path');\n const app = express();\n require(\"./db.json\");\n-\n+require{}\n // Serve images from the \"images\" directory\n app.use('/images', express.static(path.join(__dirname, 'images')));\n \n // Example endpoint to list available images\n"
+                },
+                {
+                    "date": 1737034759550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const express = require('express');\n const path = require('path');\n const app = express();\n require(\"./db.json\");\n-require{}\n+\n // Serve images from the \"images\" directory\n app.use('/images', express.static(path.join(__dirname, 'images')));\n \n // Example endpoint to list available images\n"
+                },
+                {
+                    "date": 1737034867666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +0,0 @@\n-const express = require('express');\n-const path = require('path');\n-const app = express();\n-require(\"./db.json\");\n-\n-// Serve images from the \"images\" directory\n-app.use('/images', express.static(path.join(__dirname, 'images')));\n-\n-// Example endpoint to list available images\n-app.get('/api/images', (req, res) => {\n-    const images = [\n-        { id: 1, url: '/images/image1.jpg' },\n-        { id: 2, url: '/images/image2.jpg' },\n-        { id: 3, url: '/images/image3.jpg' },\n-    ];\n-    res.json(images);\n-});\n-\n-const PORT = 6000;\n-app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`) );\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737034906280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,20 @@\n+const express = require('express');\n+const path = require('path');\n+const app = express();\n+require(\"./db.json\");\n+\n+// Serve images from the \"images\" directory\n+app.use('/images', express.static(path.join(__dirname, 'images')));\n+\n+// Example endpoint to list available images\n+app.get('/api/images', (req, res) => {\n+    const images = [\n+        { id: 1, url: '/images/image1.jpg' },\n+        { id: 2, url: '/images/image2.jpg' },\n+        { id: 3, url: '/images/image3.jpg' },\n+    ];\n+    res.json(images);\n+});\n+\n+const PORT = 6000;\n+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`) );\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737034919379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,18 +3,18 @@\n const app = express();\n require(\"./db.json\");\n \n // Serve images from the \"images\" directory\n-app.use('/images', express.static(path.join(__dirname, 'images')));\n+// app.use('/images', express.static(path.join(__dirname, 'images')));\n \n-// Example endpoint to list available images\n-app.get('/api/images', (req, res) => {\n-    const images = [\n-        { id: 1, url: '/images/image1.jpg' },\n-        { id: 2, url: '/images/image2.jpg' },\n-        { id: 3, url: '/images/image3.jpg' },\n-    ];\n-    res.json(images);\n-});\n+// // Example endpoint to list available images\n+// app.get('/api/images', (req, res) => {\n+//     const images = [\n+//         { id: 1, url: '/images/image1.jpg' },\n+//         { id: 2, url: '/images/image2.jpg' },\n+//         { id: 3, url: '/images/image3.jpg' },\n+//     ];\n+//     res.json(images);\n+// });\n \n const PORT = 6000;\n app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`) );\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737034992373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,6 +15,6 @@\n //     ];\n //     res.json(images);\n // });\n \n-const PORT = 6000;\n+const PORT = 00;\n app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`) );\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737035149833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,1 @@\n-const express = require('express');\n-const path = require('path');\n-const app = express();\n-require(\"./db.json\");\n-\n-// Serve images from the \"images\" directory\n-// app.use('/images', express.static(path.join(__dirname, 'images')));\n-\n-// // Example endpoint to list available images\n-// app.get('/api/images', (req, res) => {\n-//     const images = [\n-//         { id: 1, url: '/images/image1.jpg' },\n-//         { id: 2, url: '/images/image2.jpg' },\n-//         { id: 3, url: '/images/image3.jpg' },\n-//     ];\n-//     res.json(images);\n-// });\n-\n-const PORT = 00;\n-app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`) );\n\\ No newline at end of file\n+require(\"./db.json\");\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1737034699821,
+            "name": "Commit-0",
+            "content": "const express = require('express');\nconst path = require('path');\nconst app = express();\nre\n// Serve images from the \"images\" directory\napp.use('/images', express.static(path.join(__dirname, 'images')));\n\n// Example endpoint to list available images\napp.get('/api/images', (req, res) => {\n    const images = [\n        { id: 1, url: '/images/image1.jpg' },\n        { id: 2, url: '/images/image2.jpg' },\n        { id: 3, url: '/images/image3.jpg' },\n    ];\n    res.json(images);\n});\n\nconst PORT = 6000;\napp.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`) );"
+        }
+    ]
+}

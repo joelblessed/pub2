@@ -1,0 +1,78 @@
+{
+    "sourceFile": "cartdb.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 15,
+            "patches": [
+                {
+                    "date": 1737038221285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737038226704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,8 @@\n       \"category\": \"accesseries\"\n     },\n     {\n       \"id\": \"541a\"\n-    },\n+\n     \n   ]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737038234959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,11 +24,9 @@\n       \"price\": 9999,\n       \"image\": \"4.png\",\n       \"liked\": 0,\n       \"category\": \"accesseries\"\n-    },\n-    {\n-      \"id\": \"541a\"\n+    \n \n     \n   ]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737038255865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n       \"price\": 9999,\n       \"image\": \"4.png\",\n       \"liked\": 0,\n       \"category\": \"accesseries\"\n-    \n+    {}\n \n     \n   ]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737039159614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,36 @@\n       \"price\": 9999,\n       \"image\": \"4.png\",\n       \"liked\": 0,\n       \"category\": \"accesseries\"\n-    {}\n-\n-    \n+    },\n+    {\n+      \"id\": \"\",\n+      \"numberInStock\": 6,\n+      \"name\": \"force UP\",\n+      \"desc\": \"grass killer\",\n+      \"forCount\": 1,\n+      \"status\": \"new\",\n+      \"discount\": \"\",\n+      \"price\": 2343,\n+      \"image\": \"3.png\",\n+      \"liked\": 0,\n+      \"category\": \"farm\"\n+    },\n+    Item    {\n+      \"id\": \"02a7\",\n+      \"numberInStock\": 6,\n+      \"name\": \"Jumper\",\n+      \"desc\": \"12 gb Ram\",\n+      \"forCount\": 1,\n+      \"status\": \"Used\",\n+      \"discount\": \"\",\n+      \"price\": 532,\n+      \"image\": \"to.jpg\",\n+      \"liked\": 0,\n+      \"category\": \"computer\"\n+    },\n+    {\n+      \"id\": \"f16e\"\n+    }\n   ]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737039174844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n       \"image\": \"3.png\",\n       \"liked\": 0,\n       \"category\": \"farm\"\n     },\n-    Item    {\n+    {\n       \"id\": \"02a7\",\n       \"numberInStock\": 6,\n       \"name\": \"Jumper\",\n       \"desc\": \"12 gb Ram\",\n"
+                },
+                {
+                    "date": 1737039187068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,7 @@\n       \"image\": \"to.jpg\",\n       \"liked\": 0,\n       \"category\": \"computer\"\n     },\n-    {\n-      \"id\": \"f16e\"\n-    }\n+  \n   ]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737039192577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,8 @@\n       \"price\": 532,\n       \"image\": \"to.jpg\",\n       \"liked\": 0,\n       \"category\": \"computer\"\n-    },\n+    }\n   \n   ]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737039220461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,8 @@\n       \"price\": 532,\n       \"image\": \"to.jpg\",\n       \"liked\": 0,\n       \"category\": \"computer\"\n-    }\n-  \n+    },\n+   \n   ]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737039225805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,10 @@\n       \"price\": 532,\n       \"image\": \"to.jpg\",\n       \"liked\": 0,\n       \"category\": \"computer\"\n-    },\n+    }, {\n+      \"id\": \"5158\"\n+    }\n    \n   ]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737039973280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,10 +50,20 @@\n       \"price\": 532,\n       \"image\": \"to.jpg\",\n       \"liked\": 0,\n       \"category\": \"computer\"\n-    }, {\n-      \"id\": \"5158\"\n+    },\n+    {\n+      \"id\": \"02a7\",\n+      \"numberInStock\": 6,\n+      \"name\": \"Jumper\",\n+      \"desc\": \"12 gb Ram\",\n+      \"forCount\": 1,\n+      \"status\": \"Used\",\n+      \"discount\": \"\",\n+      \"price\": 532,\n+      \"image\": \"to.jpg\",\n+      \"liked\": 0,\n+      \"category\": \"computer\"\n     }\n-   \n   ]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737040507377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,58 +12,7 @@\n       \"price\": 532,\n       \"image\": \"to.jpg\",\n       \"liked\": 0\n     },\n-    {\n-      \"id\": \"\",\n-      \"numberInStock\": 6,\n-      \"name\": \"fan\",\n-      \"desc\": \"220v\",\n-      \"forCount\": 1,\n-      \"status\": \"Used\",\n-      \"discount\": \"\",\n-      \"price\": 9999,\n-      \"image\": \"4.png\",\n-      \"liked\": 0,\n-      \"category\": \"accesseries\"\n-    },\n-    {\n-      \"id\": \"\",\n-      \"numberInStock\": 6,\n-      \"name\": \"force UP\",\n-      \"desc\": \"grass killer\",\n-      \"forCount\": 1,\n-      \"status\": \"new\",\n-      \"discount\": \"\",\n-      \"price\": 2343,\n-      \"image\": \"3.png\",\n-      \"liked\": 0,\n-      \"category\": \"farm\"\n-    },\n-    {\n-      \"id\": \"02a7\",\n-      \"numberInStock\": 6,\n-      \"name\": \"Jumper\",\n-      \"desc\": \"12 gb Ram\",\n-      \"forCount\": 1,\n-      \"status\": \"Used\",\n-      \"discount\": \"\",\n-      \"price\": 532,\n-      \"image\": \"to.jpg\",\n-      \"liked\": 0,\n-      \"category\": \"computer\"\n-    },\n-    {\n-      \"id\": \"02a7\",\n-      \"numberInStock\": 6,\n-      \"name\": \"Jumper\",\n-      \"desc\": \"12 gb Ram\",\n-      \"forCount\": 1,\n-      \"status\": \"Used\",\n-      \"discount\": \"\",\n-      \"price\": 532,\n-      \"image\": \"to.jpg\",\n-      \"liked\": 0,\n-      \"category\": \"computer\"\n-    }\n+    \n   ]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737041258210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,8 @@\n       \"discount\": \"\",\n       \"price\": 532,\n       \"image\": \"to.jpg\",\n       \"liked\": 0\n-    },\n+    }\n     \n   ]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737041925725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,8 @@\n       \"discount\": \"\",\n       \"price\": 532,\n       \"image\": \"to.jpg\",\n       \"liked\": 0\n-    }\n-    \n+    },\n+   \n   ]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737041936559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,8 @@\n       \"discount\": \"\",\n       \"price\": 532,\n       \"image\": \"to.jpg\",\n       \"liked\": 0\n-    },\n+    }\n    \n   ]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737042111807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,5 @@\n {\n   \"cart\": [\n-    {\n-      \"id\": \"02a7\",\n-      \"numberInStock\": 6,\n-      \"name\": \"itel\",\n-      \"desc\": \"4 Gb\",\n-      \"forCount\": 1,\n-      \"category\": \"phone\",\n-      \"status\": \"Used\",\n-      \"discount\": \"\",\n-      \"price\": 532,\n-      \"image\": \"to.jpg\",\n-      \"liked\": 0\n-    }\n-   \n+    \n   ]\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1737038221285,
+            "name": "Commit-0",
+            "content": "{\n  \"cart\": [\n    {\n      \"id\": \"02a7\",\n      \"numberInStock\": 6,\n      \"name\": \"itel\",\n      \"desc\": \"4 Gb\",\n      \"forCount\": 1,\n      \"category\": \"phone\",\n      \"status\": \"Used\",\n      \"discount\": \"\",\n      \"price\": 532,\n      \"image\": \"to.jpg\",\n      \"liked\": 0\n    },\n    {\n      \"id\": \"\",\n      \"numberInStock\": 6,\n      \"name\": \"fan\",\n      \"desc\": \"220v\",\n      \"forCount\": 1,\n      \"status\": \"Used\",\n      \"discount\": \"\",\n      \"price\": 9999,\n      \"image\": \"4.png\",\n      \"liked\": 0,\n      \"category\": \"accesseries\"\n    },\n    {\n      \"id\": \"541a\"\n    },\n    \n  ]\n}"
+        }
+    ]
+}

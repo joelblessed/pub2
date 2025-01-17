@@ -48,7 +48,6 @@
       "name": "fan",
       "desc": "220v",
       "forCount":1,
-      "qty":0,
       "status": "Used",
       "discount": "",
       "price": 9999,

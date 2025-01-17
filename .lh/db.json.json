@@ -1,0 +1,62 @@
+{
+    "sourceFile": "db.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1736973028353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737035520891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n       \"forCount\":1,\n       \"status\": \"Used\",\n       \"discount\": \"\",\n       \"price\": 9999,\n-      \"image\": \"4.png\",j\n+      \"image\": \"4.pn\n       \"liked\": 0,\n       \"id\": \"\",\n       \"category\":\"accesseries\"\n     }\n"
+                },
+                {
+                    "date": 1737042128341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n     {\n       \"numberInStock\": 6,\n       \"name\": \"xr\",\n       \"desc\": \"64 Gb\",\n-      \"forCount\":1,   \n+      \"forCount\":1, \n+        \n       \"status\": \"Used\",\n       \"discount\": \"\",\n       \"price\": 242,\n       \"image\": \"oh.png\",\n@@ -47,9 +48,9 @@\n       \"forCount\":1,\n       \"status\": \"Used\",\n       \"discount\": \"\",\n       \"price\": 9999,\n-      \"image\": \"4.pn\n+      \"image\": \"4.png\",\n       \"liked\": 0,\n       \"id\": \"\",\n       \"category\":\"accesseries\"\n     }\n"
+                },
+                {
+                    "date": 1737042134427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n       \"numberInStock\": 6,\n       \"name\": \"xr\",\n       \"desc\": \"64 Gb\",\n       \"forCount\":1, \n-        \n+      \"qty\"  \n       \"status\": \"Used\",\n       \"discount\": \"\",\n       \"price\": 242,\n       \"image\": \"oh.png\",\n"
+                },
+                {
+                    "date": 1737042141293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n       \"numberInStock\": 6,\n       \"name\": \"xr\",\n       \"desc\": \"64 Gb\",\n       \"forCount\":1, \n-      \"qty\"  \n+      \"qty\";  \n       \"status\": \"Used\",\n       \"discount\": \"\",\n       \"price\": 242,\n       \"image\": \"oh.png\",\n"
+                },
+                {
+                    "date": 1737042152754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n       \"numberInStock\": 6,\n       \"name\": \"xr\",\n       \"desc\": \"64 Gb\",\n       \"forCount\":1, \n-      \"qty\";  \n+      \"qty\":0,  \n       \"status\": \"Used\",\n       \"discount\": \"\",\n       \"price\": 242,\n       \"image\": \"oh.png\",\n@@ -19,8 +19,9 @@\n       \"numberInStock\": 6,\n       \"name\": \"Jumper\",\n       \"desc\": \"12 gb Ram\",\n       \"forCount\":1,\n+      \n       \"status\": \"Used\",\n       \"discount\": \"\",\n       \"price\": 532,\n       \"image\": \"to.jpg\",\n"
+                },
+                {
+                    "date": 1737042158914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n       \"numberInStock\": 6,\n       \"name\": \"Jumper\",\n       \"desc\": \"12 gb Ram\",\n       \"forCount\":1,\n-      \n+      \"qty\":\n       \"status\": \"Used\",\n       \"discount\": \"\",\n       \"price\": 532,\n       \"image\": \"to.jpg\",\n"
+                },
+                {
+                    "date": 1737042170872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n       \"numberInStock\": 6,\n       \"name\": \"Jumper\",\n       \"desc\": \"12 gb Ram\",\n       \"forCount\":1,\n-      \"qty\":\n+      \"qty\":0,\n       \"status\": \"Used\",\n       \"discount\": \"\",\n       \"price\": 532,\n       \"image\": \"to.jpg\",\n@@ -33,8 +33,9 @@\n       \"numberInStock\": 6,\n       \"name\": \"force UP\",\n       \"desc\": \"grass killer\",\n       \"forCount\":1,\n+      \n       \"status\": \"new\",\n       \"discount\": \"\",\n       \"price\": 2343,\n       \"image\": \"3.png\",\n"
+                },
+                {
+                    "date": 1737042176718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n       \"numberInStock\": 6,\n       \"name\": \"force UP\",\n       \"desc\": \"grass killer\",\n       \"forCount\":1,\n-      \n+      \"qty\":\"\"\n       \"status\": \"new\",\n       \"discount\": \"\",\n       \"price\": 2343,\n       \"image\": \"3.png\",\n"
+                },
+                {
+                    "date": 1737042189975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n       \"numberInStock\": 6,\n       \"name\": \"force UP\",\n       \"desc\": \"grass killer\",\n       \"forCount\":1,\n-      \"qty\":\"\"\n+      \"qty\":0,\n       \"status\": \"new\",\n       \"discount\": \"\",\n       \"price\": 2343,\n       \"image\": \"3.png\",\n@@ -47,8 +47,9 @@\n       \"numberInStock\": 6,\n       \"name\": \"fan\",\n       \"desc\": \"220v\",\n       \"forCount\":1,\n+      \n       \"status\": \"Used\",\n       \"discount\": \"\",\n       \"price\": 9999,\n       \"image\": \"4.png\",\n"
+                },
+                {
+                    "date": 1737042196353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n       \"numberInStock\": 6,\n       \"name\": \"fan\",\n       \"desc\": \"220v\",\n       \"forCount\":1,\n-      \n+      \"qty\":\n       \"status\": \"Used\",\n       \"discount\": \"\",\n       \"price\": 9999,\n       \"image\": \"4.png\",\n"
+                },
+                {
+                    "date": 1737042201786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n       \"numberInStock\": 6,\n       \"name\": \"fan\",\n       \"desc\": \"220v\",\n       \"forCount\":1,\n-      \"qty\":\n+      \"qty\":0\n       \"status\": \"Used\",\n       \"discount\": \"\",\n       \"price\": 9999,\n       \"image\": \"4.png\",\n"
+                }
+            ],
+            "date": 1736973028353,
+            "name": "Commit-0",
+            "content": "{\n  \"products\": [\n    {\n      \"numberInStock\": 6,\n      \"name\": \"xr\",\n      \"desc\": \"64 Gb\",\n      \"forCount\":1,   \n      \"status\": \"Used\",\n      \"discount\": \"\",\n      \"price\": 242,\n      \"image\": \"oh.png\",\n      \"liked\": 0,\n      \"id\": \"c627\",\n      \"category\": \"phone\"\n\n    },\n    {\n      \"numberInStock\": 6,\n      \"name\": \"Jumper\",\n      \"desc\": \"12 gb Ram\",\n      \"forCount\":1,\n      \"status\": \"Used\",\n      \"discount\": \"\",\n      \"price\": 532,\n      \"image\": \"to.jpg\",\n      \"liked\": 0,\n      \"id\": \"02a7\",\n      \"category\":\"computer\"\n    },\n    {\n      \"numberInStock\": 6,\n      \"name\": \"force UP\",\n      \"desc\": \"grass killer\",\n      \"forCount\":1,\n      \"status\": \"new\",\n      \"discount\": \"\",\n      \"price\": 2343,\n      \"image\": \"3.png\",\n      \"liked\": 0,\n      \"id\": \"\",\n      \"category\":\"farm\"\n    },\n    {\n      \"numberInStock\": 6,\n      \"name\": \"fan\",\n      \"desc\": \"220v\",\n      \"forCount\":1,\n      \"status\": \"Used\",\n      \"discount\": \"\",\n      \"price\": 9999,\n      \"image\": \"4.png\",j\n      \"liked\": 0,\n      \"id\": \"\",\n      \"category\":\"accesseries\"\n    }\n   \n   \n   \n  ]\n}"
+        }
+    ]
+}

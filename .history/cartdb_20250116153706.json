@@ -1,0 +1,34 @@
+{
+  "cart": [
+    {
+      "id": "02a7",
+      "numberInStock": 6,
+      "name": "itel",
+      "desc": "4 Gb",
+      "forCount": 1,
+      "category": "phone",
+      "status": "Used",
+      "discount": "",
+      "price": 532,
+      "image": "to.jpg",
+      "liked": 0
+    },
+    {
+      "id": "",
+      "numberInStock": 6,
+      "name": "fan",
+      "desc": "220v",
+      "forCount": 1,
+      "status": "Used",
+      "discount": "",
+      "price": 9999,
+      "image": "4.png",
+      "liked": 0,
+      "category": "accesseries"
+    },
+    {
+      "id": "541a"
+
+    
+  ]
+}
